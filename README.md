@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="ERdiagram" src="https://github.com/user-attachments/assets/8896bf8b-6a84-4719-b44a-d9dcdf51627f" />
 🏥 MediCure – Hospital-and-Patient Management System
 
 MedicureSoftw is a Java-based Hospital Management System developed using Java Swing and Hibernate. The application streamlines hospital operations by providing modules for patient management, doctor management, billing, prescriptions, visitor passes, and administrative tasks.
