@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="spr.hib.soft">
+<class name="Doctor" table="Doctor_table">
+<id name="doctorId" />
+<property name="name"/>
+<property name="degree"/>
+<property name="experience"/>
+<property name="speciality"/>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="spr.hib.soft">
+<class name="Patient" table="patient_table">
+<id name="patientId" />
+<property name="password"/>
+<property name="name"/>
+<property name="gender"/>
+<property name="age"/>
+<property name="contactNo"/>
+<property name="address"/>
+<property name="pincode"/>
+<property name="city"/>
+<property name="aadharNo"/>
+<property name="disease"/>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping  package="spr.hib.soft">
+    <class name="PatientBed" table="Patient_bed_table">
+        <id name ="patientId" column="patient_id"/>
+        <property name="disease" column="disease"/>
+        <property name="attender" column="attender"/>
+        <property name="alotDate" column="alot_date"/>            
+    </class>
+    </hibernate-mapping>
